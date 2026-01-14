@@ -51,5 +51,33 @@ int main()
                                                   scanf("%s",&add);
                                                   printf("-------------\n");
                          }
+                         printf("Press 2 to see the entered contact\n");
+                         printf("Press 3 to exit the phone book\n");
 
-}
+                         int z;
+                         printf("Enter\n");
+                         scanf("%d, &z");
+                         if(z==2)
+                         {
+                                                  int num;
+                                                  printf("Enter the number of contact to be viewed : ");
+                                                  scanf("%d", &num);
+
+                                                  if (num==1)
+                                                  {
+                                                                           printf("-----------------\n");
+                                                                           printf("Name :");
+                                                                           printf("%s",n);
+                                                                           printf("Age :");
+                                                                           printf("%d",a);
+                                                                           printf("Date of Birth : ");
+                                                                           printf("%d",d);
+                                                                           printf("Address : ");
+                                                                           printf("%s" , add);
+                                                                           printf("---------------------\n");
+                                                                           return 0;
+                                                                           }
+                                                                }
+                                                        }
+                                                }
+                                                  
