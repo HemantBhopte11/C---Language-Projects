@@ -1,1 +1,2 @@
-Empty File 
+C language is fast language
+
